@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%sveltekit.assets%/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body data-sveltekit-preload-data="hover" class="max-w-7xl mx-auto">
+    <header
+      class="p-4 flex justify-between items-center px-10 bg-gray-100 my-2"
+    >
+      <a class="text-slate-900 text-2xl underline" href="/">
+        Монополия: настольная игра
+      </a>
+      <a class="text-xl bg-red-100 rounded-md p-3" href="/types"> Виды </a>
+      <a class="text-xl bg-blue-100 rounded-md p-3" href="/where-buy">
+        Где купить
+      </a>
+      <a class="text-xl bg-green-100 rounded-md p-3" href="/rules"> Правила </a>
+      <a class="text-xl bg-orange-100 rounded-md p-3" href="/history">
+        История
+      </a>
+    </header>
+
+    <div class="">
+      <h1 class="text-3xl font-bold text-center m-4">Правила игры</h1>
+      <div>
+        <h1 class="text-2xl font-semibold">Цель игры</h1>
+        <p class="text-xl">
+          Остаться в игре после того, как все остальные игроки обанкротятся.
+        </p>
+
+        <h1 class="text-2xl font-semibold">Как это сделать</h1>
+        <p class="text-xl">
+          Покупать собственность и брать с других игроков арендную плату, когда
+          они попадают на соответствующие поля;
+        </p>
+        <p class="text-xl">
+          Собирать комплекты собственности для повышения арендной платы, а затем
+          строить на них дома и отели для многократного увеличения вашего
+          дохода.
+        </p>
+
+        <h1 class="text-2xl font-semibold">Кто ходит первым</h1>
+        <p class="text-xl">
+          Каждый игрок бросает два белых кубика. Первым ходит тот, кто выбросил
+          наибольшее количество баллов.
+        </p>
+
+        <h1 class="text-2xl font-semibold">Когда подошел ваш ход</h1>
+        <p class="text-xl">Бросьте два белых кубика.</p>
+        <p class="text-xl">
+          Переместите ваш жетон вперед по доске, идя по часовой стрелке, на
+          количество полей, равное сумме выпавших очков.
+        </p>
+        <p class="text-xl">
+          В зависимости от поля, на которое вы попали, вы должны предпринять
+          соответствующие действия.
+        </p>
+        <img
+          class="mx-auto max-w-96 m-4"
+          src="https://i.ibb.co/tHDgrpL/d1e81f51ed4098504e37b713cb03a726-cropped-1332x888.webp"
+          alt="d1e81f51ed4098504e37b713cb03a726-cropped-1332x888"
+          border="0"
+        />
+      </div>
+      <footer class="p-4 text-slate-900 text-center bg-gray-100 my-2">
+        Разработано дизайн-студией Артемия Лебедева
+      </footer>
+    </div>
+  </body>
+</html>
